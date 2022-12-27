@@ -13,7 +13,7 @@ public class Janken {
         hand = "gu";
         break;
       case 1:
-        hand = "tyoki";
+        hand = "choki";
         break;
       case 2:
         hand = "pa";
@@ -28,11 +28,11 @@ public class Janken {
 
     if (u.equals(c)) {
       return "draw";
-    } else if (u.equals("gu") && c.equals("tyoki")) {
+    } else if (u.equals("gu") && c.equals("choki")) {
       return "Win!";
     } else if (u.equals("pa") && c.equals("gu")) {
       return "Win!";
-    } else if (u.equals("tyoki") && c.equals("pa")) {
+    } else if (u.equals("choki") && c.equals("pa")) {
       return "Win!";
     }
 
